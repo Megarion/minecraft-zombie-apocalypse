@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {Health:60,Attributes:[{Name:"generic.max_health",Base:60},{Name:"generic.movement_speed",Base:0.5d}],ArmorItems:[{},{},{},{id:"minecraft:glowstone",Count:64}],ArmorDropChances:[0F,0F,0F,2F],Tags:["lightning"]}

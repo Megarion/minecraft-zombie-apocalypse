@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {CanBreakDoors:1,CustomName:'[{"text":"Nether"}]',Health:60,CanPickUpLoot:1b,Attributes:[{Name:"generic.max_health",Base:30d}],ArmorItems:[{},{},{},{id:"obsidian",Count:1}],ArmorDropChances:[0f,0f,0f,1.00f]}

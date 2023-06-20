@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {PersistenceRequired:1b,CanBreakDoors:1,CustomName:'[{"text":"Medic"}]',Tags:["beacon"],Health:60,Glowing:1,CanPickUpLoot:1b,Attributes:[{Name:"generic.max_health",Base:60d}],ArmorItems:[{},{},{},{id:"beacon",Count:1}],ArmorDropChances:[0f,0f,0f,1.00f]}
