@@ -11,7 +11,7 @@ bossbar add time ""
 bossbar set time color yellow
 bossbar set time players @a
 bossbar set time style notched_6
-bossbar set time max 2400
+bossbar set time max 3000
 bossbar set announcement visible false
 
 tellraw @a {"text":"Game started","color":"gold","bold":true}

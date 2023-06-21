@@ -23,7 +23,7 @@ scoreboard players set @a startGame 0
 execute unless score Current VAR matches 1 run effect give @a[team=player] saturation 1 1 true
 
 # Special enemies
-execute as @e[type=zombie,nbt={Tags:["beacon"]}] at @s run effect give @e[type=zombie,distance=..10] regeneration 1 2 false
+execute as @e[type=zombie,nbt={Tags:["beacon"]}] at @s run effect give @e[type=zombie,distance=..10] regeneration 1 1 false
 execute if score GuardianTimer VAR matches ..0 run function za:trigger/guardiantrigger
 scoreboard players remove GuardianTimer VAR 1
 

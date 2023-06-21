@@ -1,5 +1,5 @@
 scoreboard players add Wave VAR 1
-scoreboard players set Timer VAR 2400
+scoreboard players set Timer VAR 3000
 tellraw @a [{"text":"Wave ", "color": "green","bold":true},{"score":{"objective":"VAR","name":"Wave"}, "color": "green","bold":true},{"text":"/10", "color": "green","bold":true}]
 give @a[team=player] apple 5
 give @a[team=player] salmon
